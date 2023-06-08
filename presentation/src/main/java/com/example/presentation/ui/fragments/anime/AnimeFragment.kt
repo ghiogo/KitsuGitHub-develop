@@ -24,7 +24,6 @@ class AnimeFragment : BaseFragment<FragmentAnimeBinding, AnimeViewModel>(R.layou
     private val animeAdapter = AnimeAdapter()
 
     override fun initialize() {
-        Toast.makeText(requireContext(), "Anime", Toast.LENGTH_SHORT).show()
         binding.rvAnime.adapter = animeAdapter
     }
 

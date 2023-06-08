@@ -7,5 +7,5 @@ class AnimeUseCase @Inject constructor(
     private val animeRepository: AnimeRepository
 ) {
 
-    suspend operator fun invoke() = animeRepository.fetchAnime()
+    operator fun invoke() = animeRepository.fetchAnime()
 }

@@ -7,5 +7,5 @@ class MangaUseCase @Inject constructor(
     private val mangaRepository: MangaRepository
 ) {
 
-    suspend operator fun invoke() = mangaRepository.fetchManga()
+    operator fun invoke() = mangaRepository.fetchManga()
 }

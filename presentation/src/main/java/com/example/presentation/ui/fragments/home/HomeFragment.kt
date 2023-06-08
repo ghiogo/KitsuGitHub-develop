@@ -18,7 +18,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        Toast.makeText(requireContext(), "Home", Toast.LENGTH_SHORT).show()
         initialize()
     }
 
